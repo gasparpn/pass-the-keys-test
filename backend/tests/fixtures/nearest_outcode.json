@@ -1,0 +1,205 @@
+{
+  "status": 200,
+  "result": [
+    {
+      "outcode": "M27",
+      "longitude": -2.33644644595822,
+      "latitude": 53.5121060544959,
+      "northings": 401767,
+      "eastings": 377786,
+      "admin_district": [
+        "Salford"
+      ],
+      "parish": [
+        "Salford, unparished area"
+      ],
+      "admin_county": [],
+      "admin_ward": [
+        "Pendlebury & Clifton",
+        "Claremont",
+        "Swinton & Wardley",
+        "Swinton Park",
+        "Worsley & Westwood Park"
+      ],
+      "country": [
+        "England"
+      ]
+    },
+    {
+      "outcode": "M6",
+      "longitude": -2.29892373794808,
+      "latitude": 53.4928081557478,
+      "northings": 399608,
+      "eastings": 380265,
+      "admin_district": [
+        "Salford"
+      ],
+      "parish": [
+        "Salford, unparished area"
+      ],
+      "admin_county": [],
+      "admin_ward": [
+        "Weaste & Seedley",
+        "Pendleton & Charlestown",
+        "Claremont",
+        "Eccles"
+      ],
+      "country": [
+        "England"
+      ]
+    },
+    {
+      "outcode": "M30",
+      "longitude": -2.35521831471536,
+      "latitude": 53.4843545961332,
+      "northings": 398685,
+      "eastings": 376526,
+      "admin_district": [
+        "Salford"
+      ],
+      "parish": [
+        "Salford, unparished area"
+      ],
+      "admin_county": [],
+      "admin_ward": [
+        "Weaste & Seedley",
+        "Barton & Winton",
+        "Eccles",
+        "Worsley & Westwood Park",
+        "Higher Irlam & Peel Green"
+      ],
+      "country": [
+        "England"
+      ]
+    },
+    {
+      "outcode": "M28",
+      "longitude": -2.39968241979835,
+      "latitude": 53.51468972044,
+      "northings": 402075,
+      "eastings": 373594,
+      "admin_district": [
+        "Salford",
+        "Wigan"
+      ],
+      "parish": [
+        "Salford, unparished area",
+        "Wigan, unparished area"
+      ],
+      "admin_county": [],
+      "admin_ward": [
+        "Boothstown & Ellenbrook",
+        "Walkden North",
+        "Astley Mosley Common",
+        "Little Hulton",
+        "Swinton & Wardley",
+        "Worsley & Westwood Park",
+        "Walkden South"
+      ],
+      "country": [
+        "England"
+      ]
+    },
+    {
+      "outcode": "M25",
+      "longitude": -2.27576065389527,
+      "latitude": 53.5283289067688,
+      "northings": 403554,
+      "eastings": 381817,
+      "admin_district": [
+        "Bury",
+        "Manchester"
+      ],
+      "parish": [
+        "Bury, unparished area",
+        "Manchester, unparished area"
+      ],
+      "admin_county": [],
+      "admin_ward": [
+        "Unsworth",
+        "St Mary's",
+        "Holyrood",
+        "Higher Blackley",
+        "Sedgley"
+      ],
+      "country": [
+        "England"
+      ]
+    },
+    {
+      "outcode": "M7",
+      "longitude": -2.26274918556701,
+      "latitude": 53.5055027912371,
+      "northings": 401011,
+      "eastings": 382670,
+      "admin_district": [
+        "Salford",
+        "Bury",
+        "Manchester"
+      ],
+      "parish": [
+        "Salford, unparished area",
+        "Bury, unparished area",
+        "Manchester, unparished area"
+      ],
+      "admin_county": [],
+      "admin_ward": [
+        "Cheetham",
+        "Broughton",
+        "Crumpsall",
+        "St Mary's",
+        "Kersal & Broughton Park"
+      ],
+      "country": [
+        "England"
+      ]
+    },
+    {
+      "outcode": "M45",
+      "longitude": -2.2903962,
+      "latitude": 53.5474468732824,
+      "northings": 405684,
+      "eastings": 380856,
+      "admin_district": [
+        "Bury"
+      ],
+      "parish": [
+        "Bury, unparished area"
+      ],
+      "admin_county": [],
+      "admin_ward": [
+        "Besses",
+        "Radcliffe East",
+        "Unsworth",
+        "St Mary's",
+        "Holyrood",
+        "Pilkington Park"
+      ],
+      "country": [
+        "England"
+      ]
+    },
+    {
+      "outcode": "M50",
+      "longitude": -2.29459102150538,
+      "latitude": 53.474911311828,
+      "northings": 397616,
+      "eastings": 380544,
+      "admin_district": [
+        "Salford"
+      ],
+      "parish": [
+        "Salford, unparished area"
+      ],
+      "admin_county": [],
+      "admi{\"status\":200,\"result\":[{\"outcode\":\"M27\",\"longitude\":-2.33644644595822,\"latitude\":53.5121060544959,\"northings\":401767,\"eastings\":377786,\"admin_district\":[\"Salford\"],\"parish\":[\"Salford, unparished area\"],\"admin_county\":[],\"admin_ward\":[\"Pendlebury & Clifton\",\"Claremont\",\"Swinton & Wardley\",\"Swinton Park\",\"Worsley & Westwood Park\"],\"country\":[\"England\"]},{\"outcode\":\"M6\",\"longitude\":-2.29892373794808,\"latitude\":53.4928081557478,\"northings\":399608,\"eastings\":380265,\"admin_district\":[\"Salford\"],\"parish\":[\"Salford, unparished area\"],\"admin_county\":[],\"admin_ward\":[\"Weaste & Seedley\",\"Pendleton & Charlestown\",\"Claremont\",\"Eccles\"],\"country\":[\"England\"]},{\"outcode\":\"M30\",\"longitude\":-2.35521831471536,\"latitude\":53.4843545961332,\"northings\":398685,\"eastings\":376526,\"admin_district\":[\"Salford\"],\"parish\":[\"Salford, unparished area\"],\"admin_county\":[],\"admin_ward\":[\"Weaste & Seedley\",\"Barton & Winton\",\"Eccles\",\"Worsley & Westwood Park\",\"Higher Irlam & Peel Green\"],\"country\":[\"England\"]},{\"outcode\":\"M28\",\"longitude\":-2.39968241979835,\"latitude\":53.51468972044,\"northings\":402075,\"eastings\":373594,\"admin_district\":[\"Salford\",\"Wigan\"],\"parish\":[\"Salford, unparished area\",\"Wigan, unparished area\"],\"admin_county\":[],\"admin_ward\":[\"Boothstown & Ellenbrook\",\"Walkden North\",\"Astley Mosley Common\",\"Little Hulton\",\"Swinton & Wardley\",\"Worsley & Westwood Park\",\"Walkden South\"],\"country\":[\"England\"]},{\"outcode\":\"M25\",\"longitude\":-2.27576065389527,\"latitude\":53.5283289067688,\"northings\":403554,\"eastings\":381817,\"admin_district\":[\"Bury\",\"Manchester\"],\"parish\":[\"Bury, unparished area\",\"Manchester, unparished area\"],\"admin_county\":[],\"admin_ward\":[\"Unsworth\",\"St Mary's\",\"Holyrood\",\"Higher Blackley\",\"Sedgley\"],\"country\":[\"England\"]},{\"outcode\":\"M7\",\"longitude\":-2.26274918556701,\"latitude\":53.5055027912371,\"northings\":401011,\"eastings\":382670,\"admin_district\":[\"Salford\",\"Bury\",\"Manchester\"],\"parish\":[\"Salford, unparished area\",\"Bury, unparished area\",\"Manchester, unparished area\"],\"admin_county\":[],\"admin_ward\":[\"Cheetham\",\"Broughton\",\"Crumpsall\",\"St Mary's\",\"Kersal & Broughton Park\"],\"country\":[\"England\"]},{\"outcode\":\"M45\",\"longitude\":-2.2903962,\"latitude\":53.5474468732824,\"northings\":405684,\"eastings\":380856,\"admin_district\":[\"Bury\"],\"parish\":[\"Bury, unparished area\"],\"admin_county\":[],\"admin_ward\":[\"Besses\",\"Radcliffe East\",\"Unsworth\",\"St Mary's\",\"Holyrood\",\"Pilkington Park\"],\"country\":[\"England\"]},{\"outcode\":\"M50\",\"longitude\":-2.29459102150538,\"latitude\":53.474911311828,\"northings\":397616,\"eastings\":380544,\"admin_district\":[\"Salford\"],\"parish\":[\"Salford, unparished area\"],\"admin_county\":[],\"admin_ward\":[\"Weaste & Seedley\",\"Quays\",\"Pendleton & Charlestown\"],\"country\":[\"England\"]}]}n_ward": [
+        "Weaste & Seedley",
+        "Quays",
+        "Pendleton & Charlestown"
+      ],
+      "country": [
+        "England"
+      ]
+    }
+  ]
+}

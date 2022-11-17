@@ -4,8 +4,7 @@ import requests
 from django.conf import settings
 
 
-
-def get_outcode_listings_from_output_file(outcode: str):
+def get_outcode_listings_from_output_file(outcode: str) -> list:
     listings = []
     with open(settings.OUTPUT_FILE_NAME, 'r') as csv_file:
         reader = csv.DictReader(csv_file, delimiter=',')
@@ -28,7 +27,7 @@ def get_nearest_outcodes(outcode: str):
     return outcodes
 
 
-def get_average_daily_price(listings: list[dict]):
+def get_average_daily_price(listings: list[dict]) -> float:
     price_sum: float = 0.0
     if len(listings) == 0:
         return price_sum
@@ -37,7 +36,7 @@ def get_average_daily_price(listings: list[dict]):
     return round(price_sum/len(listings), 2)
 
 
-def get_outcodes_informations(listings: list):
+def get_outcodes_informations(listings: list) -> list[dict]:
     nearest_outcodes: list = []
 
     # Organize nearest outcode information

@@ -1,0 +1,5 @@
+id,name,host_id,host_name,neighbourhood_group,neighbourhood,latitude,longitude,room_type,price,minimum_nights,number_of_reviews,last_review,reviews_per_month,calculated_host_listings_count,availability_365,number_of_reviews_ltm,license,outcode
+157612,New attic space/single & Dble room,757016,Margaret,Salford,Salford District,53.50114,-2.26429,Entire home/apt,41,2,96,2019-12-08,1.50,1,298,0,,M7
+283495,En-suite room in detached house,1476718,Alison,Rochdale,Rochdale District,53.56259,-2.21945,Private room,60,3,10,2018-08-05,0.13,1,338,0,,M24
+299194,Cosy Garden Chalet for all seasons,1542010,Minh,Stockport,Stockport District,53.376,-2.04462,Entire home/apt,50,2,291,2021-09-05,5.69,1,349,24,,
+310742,Nice room 10 minutes walk from town,1603652,Francisca,Manchester,Ancoats and Clayton,53.48251,-2.22802,Private room,34,180,64,2016-11-23,1.00,1,270,0,,M4
