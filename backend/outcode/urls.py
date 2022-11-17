@@ -4,5 +4,6 @@ from .views import GetOutCode
 
 
 urlpatterns = [
-    path('outcode/', GetOutCode.as_view())
+    path('outcode/<str:outcode>/', GetOutCode.as_view()),
+    path('nexus/<str:outcode>/', GetOutCode.as_view()),
 ]
