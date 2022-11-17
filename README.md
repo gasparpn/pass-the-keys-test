@@ -50,3 +50,8 @@ make build
 ```
 make run-docker
 ```
+
+## API test
+
+In the file `Insomnia_collection.json` there is a requests collection you can import to test the application in applications like
+Postman or Insomnia (the later one was used to test and generate the collection).
