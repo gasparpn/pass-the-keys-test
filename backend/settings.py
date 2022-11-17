@@ -127,7 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Outcode API
 
-POSTCODE_URL = 'https://postcodes.io/postcodes'
+POSTCODE_BASE_URL = 'https://postcodes.io/'
 
 # CSV files
 OUTPUT_FILE_NAME = 'backend/output.csv'

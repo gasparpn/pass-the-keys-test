@@ -43,5 +43,6 @@ def get_postcode_data(path_to_listing_file: str):
             data[f'geolocations[{index}][radius]'] = 100
             data[f'geolocations[{index}][limit]'] = 1
 
-        response = requests.post(settings.POSTCODE_URL, data=data)
+        response = requests.post(settings.POSTCODE_BASE_URL + 'postcodes', data=data)
+
         return response.json()['result']

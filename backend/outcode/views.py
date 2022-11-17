@@ -1,42 +1,63 @@
-import csv
+import itertools
 
-from django.conf import settings
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.views import APIView
 
+from .services import (
+    get_average_daily_price,
+    get_nearest_outcodes,
+    get_outcode_listings_from_output_file,
+    get_outcodes_informations,
+)
 
 
-class GetOutCode(APIView):
+class OutCodeView(APIView):
 
     def get(self, request, outcode: str):
-        listings = []
-        with open(settings.OUTPUT_FILE_NAME, 'r') as csv_file:
-            reader = csv.DictReader(csv_file, delimiter=',')
-            for row in reader:
-                if row['outcode'] == outcode:
-                    listings.append(row)
+        listings = get_outcode_listings_from_output_file(outcode)
 
         if not listings:
             data = {
                 'error': f'No information found for the outcode {outcode}'
             }
             return Response(data, status=status.HTTP_404_NOT_FOUND)
-        price_sum: float = 0.0
-        for item in listings:
-            price_sum += float(item['price'])
-
+        average_daily_price = get_average_daily_price(listings)
         data = {
             'listing-count': len(listings),
-            'average-daily-price': price_sum/len(listings),
+            'average-daily-price': average_daily_price,
             'outcode': outcode,
         }
 
         return Response(data)
 
 
-class GetNearOutCode(APIView):
+class NearestOutCodeView(APIView):
 
     def get(self, request, outcode: str):
-        return Response({'test': outcode})
+        outcodes: list = get_nearest_outcodes(outcode)
+        if not outcodes:
+            data = {
+                'error': f'No information found for the outcode {outcode}'
+            }
+            return Response(data, status=status.HTTP_404_NOT_FOUND)
+        listings: list = []
+        for outcode in outcodes:
+            listings.append(get_outcode_listings_from_output_file(outcode))
+
+        listings = [item for item in listings if len(item) > 0]  # Remove empty lists
+
+        nearest_outcodes = get_outcodes_informations(listings)
+
+        overall_values = {}
+        # Merge all lists to get overall information
+        flatten_listings = list(itertools.chain(*listings))
+        average_daily_price = get_average_daily_price(flatten_listings)
+
+        overall_values['listing-count'] = len(flatten_listings)
+        overall_values['average-daily-price'] = average_daily_price
+        overall_values['nexus'] = outcode
+        overall_values['nearest_outcodes'] = nearest_outcodes
+
+        return Response({'list': overall_values})
 
