@@ -9,3 +9,7 @@ instead of using the entire CSV file.
 3 - Should exist more tests to cover the command that gets the outcode information.
 
 4 - The command could be places in a cronjob to run periodically.
+
+5 - Separate local and production requirements
+
+6 - Fix the way data is presented in the XML to not use the root and use the attribute as required.
